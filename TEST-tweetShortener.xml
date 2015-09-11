@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="5" errors="0" failures="0" time="0.01" timestamp="2015-09-11T11:16:52">
+		<testcase classname="tweetShortener" name="replaces long words with their expected short form" time="0.004">
+		</testcase>
+		<testcase classname="tweetShortener" name="shortens tweets in bulk" time="0.001">
+		</testcase>
+		<testcase classname="tweetShortener" name="shortens tweets longer than 140 characters only" time="0.001">
+		</testcase>
+		<testcase classname="tweetShortener" name="truncates tweets over 140 characters after shortening" time="0.001">
+		</testcase>
+		<testcase classname="tweetShortener" name="keeps shortened tweets at their original lengths" time="0">
+		</testcase>
+	</testsuite>
+</testsuites>
+
